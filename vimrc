@@ -377,3 +377,4 @@ function! UpdateGtags(f)
      let dir = fnamemodify(a:f, ':p:h')
      exe 'silent !cd ' . dir . ' && global -u &> /dev/null &'
 endfunction
+
