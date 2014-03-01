@@ -34,6 +34,7 @@ if has("gui_running")
   set guioptions-=T
   let psc_style='cool'
   colorscheme evening
+  set t_Co=256
 else
   set background=dark
   colorscheme desert
