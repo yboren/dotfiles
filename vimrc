@@ -15,13 +15,13 @@ Bundle 'gmarik/vundle'
 "my Bundle here:
 "original repos on github
 Bundle 'kien/ctrlp.vim'
-Bundle 'sukima/xmledit'
+"Bundle 'sukima/xmledit'
 Bundle 'sjl/gundo.vim'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'klen/python-mode'
 Bundle 'Valloric/ListToggle'
 Bundle 'SirVer/ultisnips'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/syntastic'
 Bundle 't9md/vim-quickhl'
 "Bundle 'Lokaltog/vim-powerline'
@@ -32,18 +32,20 @@ Bundle 'vcscommand.vim'
 Bundle 'ShowPairs'
 Bundle 'SudoEdit.vim'
 Bundle 'EasyGrep'
-Bundle 'VOoM'
+"Bundle 'VOoM'
 Bundle 'VimIM'
-" non github repos
-" Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'fencview'
+Bundle 'taglist'
+"non github repos
+"Bundle 'git://git.wincent.com/command-t.git'
 filetype plugin indent on		" required!
-" Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install (update) bundles
-" :BundleSearch(!) foo - search (or refresh cache first) for foo
-" :BundleClean(!)      - confirm (or auto-approve) removal of unused bundles
+"Brief help
+":BundleList          - list configured bundles
+":BundleInstall(!)    - install (update) bundles
+":BundleSearch(!) foo - search (or refresh cache first) for foo
+":BundleClean(!)      - confirm (or auto-approve) removal of unused bundles
 "
-" see :h vundle for more details or wiki for FAQ
+"see :h vundle for more details or wiki for FAQ
 
 let mapleader=","
 
@@ -322,7 +324,7 @@ nmap <leader>f :cs find
 " I use GNU global instead cscope because global is faster.
 set cscopetag
 set cscopeprg=gtags-cscope
-set cscopequickfix=c-,d-,e-,f-,g0,i-,s-,t-
+"set cscopequickfix=c-,d-,e-,f-,g0,i-,s-,t-
 nmap <silent> <leader>j <ESC>:cstag <c-r><c-w><CR>
 nmap <silent> <leader>g <ESC>:lcs f c <c-r><c-w><cr>:lw<cr>
 nmap <silent> <leader>s <ESC>:lcs f s <c-r><c-w><cr>:lw<cr>
