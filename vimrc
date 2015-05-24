@@ -6,44 +6,45 @@ set nocompatible
 
 "Vundle
 filetype off                    " required!
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 "let Vundle manage Vundle
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 "my Bundle here:
 "original repos on github
-Bundle 'kien/ctrlp.vim'
-"Bundle 'sukima/xmledit'
-Bundle 'sjl/gundo.vim'
-Bundle 'jiangmiao/auto-pairs'
-Bundle 'klen/python-mode'
-Bundle 'Valloric/ListToggle'
-Bundle 'SirVer/ultisnips'
-"Bundle 'Valloric/YouCompleteMe'
-Bundle 'scrooloose/syntastic'
-Bundle 't9md/vim-quickhl'
-"Bundle 'Lokaltog/vim-powerline'
-Bundle 'scrooloose/nerdcommenter'
+Plugin 'kien/ctrlp.vim'
+"Plugin 'sukima/xmledit'
+Plugin 'sjl/gundo.vim'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'klen/python-mode'
+Plugin 'Valloric/ListToggle'
+Plugin 'SirVer/ultisnips'
+"Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/syntastic'
+Plugin 't9md/vim-quickhl'
+"Plugin 'Lokaltog/vim-powerline'
+Plugin 'scrooloose/nerdcommenter'
 "vim-scripts repos
-Bundle 'YankRing.vim'
-Bundle 'vcscommand.vim'
-Bundle 'ShowPairs'
-Bundle 'SudoEdit.vim'
-Bundle 'EasyGrep'
-"Bundle 'VOoM'
-Bundle 'VimIM'
-Bundle 'fencview'
-Bundle 'taglist'
+Plugin 'YankRing.vim'
+Plugin 'vcscommand.vim'
+Plugin 'ShowPairs'
+Plugin 'SudoEdit.vim'
+Plugin 'EasyGrep'
+"Plugin 'VOoM'
+Plugin 'VimIM'
+Plugin 'fencview'
+Plugin 'taglist'
 "non github repos
-"Bundle 'git://git.wincent.com/command-t.git'
+"Plugin 'git://git.wincent.com/command-t.git'
+call vundle#end()
 filetype plugin indent on		" required!
 "Brief help
-":BundleList          - list configured bundles
-":BundleInstall(!)    - install (update) bundles
-":BundleSearch(!) foo - search (or refresh cache first) for foo
-":BundleClean(!)      - confirm (or auto-approve) removal of unused bundles
+":PluginList          - list configured Plugins
+":PluginInstall(!)    - install (update) Plugins
+":PluginSearch(!) foo - search (or refresh cache first) for foo
+":PluginClean(!)      - confirm (or auto-approve) removal of unused Plugins
 "
 "see :h vundle for more details or wiki for FAQ
 
